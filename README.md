@@ -1,34 +1,38 @@
-## Portfólio Pessoal - Projeto Front-End
+# Portfólio Pessoal - Projeto Front-End
 Este é um projeto de portfólio pessoal desenvolvido como parte dos estudos em desenvolvimento front-end. A proposta é criar uma página onde possamos nos apresentar, mostrar habilidades, projetos e contatos.
 
-💻 Tecnologias utilizadas
-HTML5
+---
 
-(CSS e JavaScript serão adicionados nas próximas etapas)
+## 💻 Tecnologias Utilizadas
 
-📌 Funcionalidades atuais
+| Tecnologias        | Versão / Observação              |
+|--------------------|----------------------------------|
+| HTML               | Framework principal              |
+| CSS                | Estilização                      |
+
+
+---
+
+## 📌 Funcionalidades atuais
 Estrutura básica da página em HTML
 
-Seções como:
+### Seções como:
+- Sobre mim
+- Contato
 
-Sobre mim
+---
 
-Contato
+## 🎯 Próximos passos
 
-🎯 Próximos passos
-Estilização com CSS
+- Estilização com CSS
+- Responsividade para diferentes dispositivos
+- Seção de filmes favoritos
+- Publicação do projeto com GitHub Pages
 
-Responsividade para diferentes dispositivos
+## 🚀 Como visualizar o projeto
 
-Seção de filmes favoritos
-
-Publicação do projeto com GitHub Pages
-
-🚀 Como visualizar o projeto
-Você pode clonar este repositório e abrir o arquivo index.html no seu navegador:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
+### 1. Clone o repositório:
+```bash
+git clone https://github.com/Grupo-4-Turma-Javascript-07/crm-backend.git
+``` 
 Ou acessar a versão online assim que for publicada via GitHub Pages.
