@@ -1,4 +1,4 @@
-📁 Portfólio Pessoal - Projeto Front-End
+## Portfólio Pessoal - Projeto Front-End
 Este é um projeto de portfólio pessoal desenvolvido como parte dos estudos em desenvolvimento front-end. A proposta é criar uma página onde possamos nos apresentar, mostrar habilidades, projetos e contatos.
 
 💻 Tecnologias utilizadas
