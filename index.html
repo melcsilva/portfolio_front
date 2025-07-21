@@ -7,13 +7,14 @@
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/4.svg" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
         <header>
-            <div id="header_content">
+            <div id="header_content" class="flex">
                 <div id="titulo">
-                    <h1>Bem-vinde ao meu portfolio!</h1>
+                    <h1>Meu portfólio</h1>
                 </div>
                 <div id="menu">
                     <nav>
@@ -34,12 +35,15 @@
     </header>
 
         <main>
-            <section id="about">
+            <section id="about" class="flex_start">
                 <h2>Sobre mim</h2>
-                <div id="conteudo">
+                <div id="conteudo" class="flex">
                     <img
                     src="./assets/img/melicon.svg"
-                    alt="Foto da criadora desse conteudo"/>
+                    alt="Foto da criadora desse conteudo"
+                    class="img_profile"
+                    />
+
                     <article id="sobre_texto">
                         <p>
                             Olá! Sou a Mel, sou estudante de desenvolvimento front-end e atualmente estou mergulhando nos estudos de HTML, CSS e JavaScript. Sempre tive curiosidade sobre como os sites funcionam por trás das telas, e agora estou aprendendo a criar minhas próprias páginas e interfaces. Tenho buscado crescer na área de tecnologia porque acredito que ela pode transformar vidas.
@@ -51,9 +55,9 @@
 
             </section>
 
-            <section id="video">
+            <section id="video" class="flex_start">
                 <h2>Meu vídeo favorito!</h2>
-                <div id="youtube">
+                <div id="youtube" class="flex">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/lkQYQ5IhpaI?si=M5NvFRIgW3J3W7X4&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
@@ -61,16 +65,16 @@
 
     </main>
 
-        <footer>
+        <footer class="flex">
             <section id="redes_sociais">
                 <a href="">
-                    <img src="assets/img/linkedin.svg" alt="LinkedIn">
+                    <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon">
                 </a>
                 <a href="">
-                    <img src="assets/img/github.svg" alt="Github">
+                    <img src="assets/img/github.svg" alt="Github" class="social_icon">
                 </a>
                 <a href="">
-                    <img src="assets/img/instagram.svg" alt="Instagram">
+                    <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon">
                 </a>
             </section>
             <h3>
