@@ -20,6 +20,7 @@ Estrutura básica da página em HTML
 ### Seções como:
 - Sobre mim
 - Contato
+- Filmes Favoritos (parallax)
 
 ---
 
