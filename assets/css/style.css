@@ -85,6 +85,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
   justify-content: space-between;
   padding: 2rem 10% 2rem;
   background: rgba(0, 0, 0, 0.3);
@@ -117,7 +118,6 @@ p {
   align-items: baseline;
   justify-content: center;
   gap: 1rem;
-  flex-direction: column;
   margin: 5rem auto;
   width: 90%;
 }
@@ -130,7 +130,6 @@ p {
 
 span{
   color: #BA181B;
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 

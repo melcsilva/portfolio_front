@@ -49,9 +49,7 @@ body {
   width: 100%;
   justify-content: space-between;
   padding: 2rem 10% 2rem;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  border-radius: 1px solid var(--red-600);
+  background: rgba(0, 0, 0, 0.144);
 }
 
 #menu li {
@@ -105,7 +103,7 @@ h4 {
 }
 
 h5 {
-  margin: 1 0.5rem ;
+  margin: 1rem 0.5rem ;
   padding: 0.5rem;
   color: #F5F3F4;
   font-size: 1rem;
@@ -190,7 +188,7 @@ main{
 }
 
 section.module:last-child{
-  margin-bottom: 0%;
+  margin-bottom: 0px;
 }
 
 section.module.content{
