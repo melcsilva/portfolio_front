@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --red-800: #660708;
+  --red-600: #A4161A;
+  --red-400: #BA181B;
+  --red-200: #E5383B;
+
+  --black-800: #0B090A;
+  --black-600: #161A1D;
+
+  --gray-500: #B1A7A6;
+  --gray-400: #D3D3D3;
+
+  --gray-100: #F5F3F4;
+  --white: #FFFFFF;
+}
+
+body {
+  background: #161A1D;
+  color: #F5F3F4;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#header_content {
+  height: 80px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2rem 10% 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 1px solid var(--red-600);
+}
+
+#menu li {
+  display: inline;
+  padding: 1rem;
+}
+
+#menu li a {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+  color: #FFFFFF;
+}
+
+#menu li a:hover,
+#menu li a.active{
+  color: #A4161A;
+  border-bottom: 3px solid var(--red-400);
+}
+
+h1 {
+  color: #F5F3F4;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  padding: 1rem;
+  color: #F5F3F4;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+h3 {
+  padding: 1rem;
+  color: #F5F3F4;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h4 {
+  margin: 0 0.5rem ;
+  padding: 0.5rem;
+  color: #F5F3F4;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+h5 {
+  margin: 1 0.5rem ;
+  padding: 0.5rem;
+  color: #F5F3F4;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 35px;
+}
+
+footer {
+  flex-direction: column;
+  margin: 0;
+  padding: 2rem;
+  color:#F5F3F4;
+  background-color: #660708;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+#redes_sociais {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0 0 0;
+  width: 320px;
+}
+
+.social_icon {
+  width: 4rem;
+  height: 4rem;
+  filter: brightness(0)
+          saturate(100%)
+          invert(100%)
+          sepia(0%)
+          saturate(7457%)
+          hue-rotate(23deg)
+          brightness(95%)
+          contrast(87%);
+}
+
+.social_icon:hover {
+  filter: brightness(0) 
+          saturate(100%) 
+          invert(7%) 
+          sepia(16%) 
+          saturate(42%) 
+          hue-rotate(176deg) 
+          brightness(96%) 
+          contrast(107%);
+}
+
+#film{
+  margin: 0;
+  padding: 0;
+  background-color: #0B090A;
+  color: #F5F3F4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+main{
+  display: block;
+  background-color: #0B090A;
+}
+
+.container{
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section.module:last-child{
+  margin-bottom: 0%;
+}
+
+section.module.content{
+  padding: 40px 0;
+  background: #0B090A;
+}
+
+section.module.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+section.module.parallax:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
+
+section.module.parallax-1{
+  background-image: url('../img/portrait.svg');
+}
+
+section.module.parallax-2{
+  background-image: url('../img/everything.svg');
+}
+
+section.module.parallax-3{
+  background-image: url('../img/climaxx.svg');
+}
+
+section.module.parallax-4{
+  background-image: url('../img/sith.svg');
+}
+
+section.module.parallax-5{
+  background-image: url('../img/perfume.svg');
+}
+
+section.module.parallax h2{
+  color: #F5F3F4;
+  text-align: center;
+  font-size: 65px;
+  z-index: 50;
+  text-transform: uppercase;
+}
