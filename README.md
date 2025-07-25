@@ -8,8 +8,8 @@ Este é um projeto de portfólio pessoal desenvolvido como parte dos estudos em 
 | Tecnologias        | Versão / Observação              |
 |--------------------|----------------------------------|
 | HTML               | Principal                        |
-| CSS                | Futuro                           |
-| Javascript         | Futuro                           |
+| CSS                | Em Andamento                     |
+| Javascript         | Em andamento                     |
 
 
 ---
